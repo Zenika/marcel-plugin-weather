@@ -145,7 +145,7 @@
         }
 
         _getIcons () {
-          return fetch('/plugins/weather/icons.json')
+          return fetch('/plugins/marcel-plugin-weather/icons.json')
                     .then(res => res.json())
                     .then(icons => this.icons = icons)
         }
