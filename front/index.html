@@ -1,4 +1,7 @@
-<dom-module id="weather-item">
+<link rel="import" href="./bower_components/polymer/polymer-element.html">
+<link rel="import" href="./weather-icon.html">
+
+<dom-module id="marcel-plugin-weather">
   <template>
     <style include="shared-styles"></style>
     <style>
@@ -27,11 +30,10 @@
       </template>
     </ul>
   </template>
-  <link rel="import" href="weather-icon.html">
   <script>
     (() => {
       class Weather extends Polymer.Element {
-        static get is () { return 'weather-item' }
+        static get is () { return 'marcel-plugin-weather' }
 
         static get properties () {
           return {
