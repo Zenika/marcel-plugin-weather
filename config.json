@@ -1,0 +1,15 @@
+{
+  "name": "Weather",
+  "description": "Displays weather information",
+  "elementName": "marcel-plugin-weather",
+  "files": ["index.html"],
+  "icon": "",
+  "props": [
+    {
+      "name": "weather_url",
+      "description": "Url of the api for the weather data",
+      "type": "string",
+      "defaultValue": "http://localhost:8080"
+    }
+  ]
+}
